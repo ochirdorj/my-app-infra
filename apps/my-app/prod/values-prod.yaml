@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: 307654411660.dkr.ecr.us-west-2.amazonaws.com/my-app
-  tag: latest
+  tag: 32382765a34e71bbbe9d0cfb26ab8c7884b98fef
   pullPolicy: Always
 
 service:
