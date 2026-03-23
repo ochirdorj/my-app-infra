@@ -8,10 +8,10 @@ spec:
   source:
     repoURL: https://github.com/ochirdorj/my-app-infra.git
     targetRevision: HEAD
-    path: apps/my-app/dev
+    path: apps/my-app/chart
     helm:
       valueFiles:
-        - values-dev.yaml
+        - ../dev/values-dev.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: my-app
