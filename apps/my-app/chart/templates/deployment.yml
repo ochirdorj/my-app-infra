@@ -24,12 +24,12 @@ spec:
             - name: DB_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: my-app-secret
+                  name: my-app-secrets
                   key: DB_PASSWORD
             - name: API_KEY
               valueFrom:
                 secretKeyRef:
-                  name: my-app-secret
+                  name: my-app-secrets
                   key: API_KEY
           resources:
             requests:
