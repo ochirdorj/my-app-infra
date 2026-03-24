@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/ochirdorj/my-app-infra.git
     targetRevision: HEAD
-    path: apps/my-app/prod
+    path: apps/my-app/chart
     helm:
       valueFiles:
         - ../prod/values-prod.yaml
