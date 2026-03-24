@@ -20,7 +20,7 @@ spec:
     scaleDown:
       stabilizationWindowSeconds: 300
       policies:
-        - type: Utilization
+        - type: Percent
           value: 10
           periodSeconds: 60
     scaleUp:
